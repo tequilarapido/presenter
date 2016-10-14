@@ -1,6 +1,6 @@
 Simple and straightforward presenter implementation for Eloquent models.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/tequilarapido/presenter.svg?style=flat-square)](https://packagist.org/packages/tequilarapido/$ckage$)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/tequilarapido/presenter.svg?style=flat-square)](https://packagist.org/packages/tequilarapido/presenter)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/tequilarapido/presenter/master.svg?style=flat-square)](https://travis-ci.org/tequilarapido/presenter)
 [![StyleCI](https://styleci.io/repos/70917961/shield)](https://styleci.io/repos/70917961)
