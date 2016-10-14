@@ -19,7 +19,9 @@ class PresenterTest extends TestCase
             $model->present();
         } catch (\Exception $e) {
         }
+
         $this->assertInstanceOf(PresenterException::class, $e);
+        $this->assertEquals('Please set the $presenter property to your presenter fully qualified class name.', $e->getMessage());
     }
 
     /** @test */
@@ -31,7 +33,9 @@ class PresenterTest extends TestCase
             $model->present();
         } catch (\Exception $e) {
         }
+
         $this->assertInstanceOf(PresenterException::class, $e);
+        $this->assertEquals('The presenter class [\Some\UnfoundClass] does not exist.', $e->getMessage());
     }
 
     /** @test */
