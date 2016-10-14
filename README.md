@@ -6,7 +6,7 @@ Simple and straightforward presenter implementation for Eloquent models.
 [![StyleCI](https://styleci.io/repos/70917961/shield)](https://styleci.io/repos/70917961)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/960ac4a0-ff08-44df-b247-a6d21200810f.svg?style=flat-square)](https://insight.sensiolabs.com/projects/960ac4a0-ff08-44df-b247-a6d21200810f)
 [![Quality Score](https://img.shields.io/scrutinizer/g/tequilarapido/presenter.svg?style=flat-square)](https://scrutinizer-ci.com/g/tequilarapido/presenter)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/tequilarapido/$pckage$/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/tequilarapido/ckage$/?branch=master)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/tequilarapido/presenter/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/tequilarapido/presenter/?branch=master)
 
 <p align="center">
     <img src="https://s16.postimg.org/sq2va8mnp/presenter.jpg" />
