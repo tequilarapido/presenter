@@ -10,7 +10,6 @@ use Tequilarapido\Presenter\Tests\TestCase;
 
 class PresenterTest extends TestCase
 {
-
     /** @test */
     public function it_throws_an_exception_if_undefined_presenter()
     {
@@ -44,7 +43,6 @@ class PresenterTest extends TestCase
         $this->assertEquals('John Doe', $model->present()->name());
         $this->assertEquals('John Doe', $model->present()->name);
     }
-
 }
 
 class UndefinedPresenterModel extends Model
@@ -72,6 +70,6 @@ class UserPresenter extends Presenter
 {
     public function name()
     {
-        return $this->first_name . ' ' . $this->last_name;
+        return $this->first_name.' '.$this->last_name;
     }
 }

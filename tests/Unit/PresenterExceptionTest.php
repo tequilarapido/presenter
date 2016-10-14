@@ -12,5 +12,4 @@ class PresenterExceptionTest extends TestCase
     {
         $this->assertInstanceOf(\Exception::class, new PresenterException);
     }
-
 }

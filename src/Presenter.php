@@ -6,9 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 abstract class Presenter
 {
-
     /**
-     * Model
+     * Model.
      *
      * @var Model
      */
@@ -23,7 +22,7 @@ abstract class Presenter
     }
 
     /**
-     * Get model attribute
+     * Get model attribute.
      *
      * @param $key
      * @return mixed
@@ -34,7 +33,7 @@ abstract class Presenter
     }
 
     /**
-     * Allow for property-style retrieval
+     * Allow for property-style retrieval.
      *
      * @param $property
      * @return mixed
