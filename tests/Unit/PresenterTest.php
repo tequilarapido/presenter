@@ -39,6 +39,15 @@ class PresenterTest extends TestCase
     }
 
     /** @test */
+    public function it_returns_model_properties_magically()
+    {
+        $model = new User(['first_name' => 'John', 'last_name' => 'Doe']);
+
+        $this->assertEquals('John', $model->present()->getAttribute('first_name'));
+        $this->assertEquals('Doe', $model->present()->getAttribute('last_name'));
+    }
+
+    /** @test */
     public function it_returns_correctly_a_presented_value()
     {
         $model = new User(['first_name' => 'John', 'last_name' => 'Doe']);
@@ -74,6 +83,6 @@ class UserPresenter extends Presenter
 {
     public function name()
     {
-        return $this->first_name.' '.$this->last_name;
+        return $this->first_name . ' ' . $this->last_name;
     }
 }
