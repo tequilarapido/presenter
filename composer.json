@@ -1,38 +1,41 @@
 {
-    "name": "tequilarapido/presenter",
-    "description": "Simple and straightforward presenter implementation for Eloquent models.",
-    "homepage": "https://github.com/tequilarapido/presenter",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Nassif Bourguig",
-            "email": "nbourguig@gmail.com",
-            "homepage": "https://github.com/nbourguig",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "laravel/framework": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.*"
-    },
-    "require-dev": {
-        "mockery/mockery": "^0.9.5",
-        "phpunit/phpunit": "4.*",
-        "orchestra/testbench": "^3.2"
-    },
-    "autoload": {
-        "psr-4": {
-            "Tequilarapido\\Presenter\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tequilarapido\\Presenter\\Tests\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit"
-    },
-    "config": {
-        "sort-packages": true
+  "name": "tequilarapido/presenter",
+  "description": "Simple and straightforward presenter implementation for Eloquent models.",
+  "homepage": "https://github.com/tequilarapido/presenter",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nassif Bourguig",
+      "email": "nbourguig@gmail.com",
+      "homepage": "https://github.com/nbourguig",
+      "role": "Developer"
     }
+  ],
+  "require": {
+    "laravel/framework": "^5.8"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tequilarapido\\Presenter\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tequilarapido\\Presenter\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.1-dev"
+    }
+  }
 }
