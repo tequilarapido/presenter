@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/tequilarapido/presenter/compare/v1.1.1...v1.1.2) (2019-10-10)
+
+
+### Features
+
+* support Laravel 6.* versions ([278e2b6](https://github.com/tequilarapido/presenter/commit/278e2b6))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/tequilarapido/presenter/compare/v1.1.0...v1.1.1) (2019-09-03)
 
